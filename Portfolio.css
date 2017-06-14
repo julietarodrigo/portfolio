@@ -1,12 +1,13 @@
-.h1{
+h1{
+	font-family:Helvetica;
+	color: green;
+}
+h2{
 	font-family:Helvetica;
 }
-.h2{
+h3{
 	font-family:Helvetica;
 }
-.h3{
-	font-family:Helvetica;
-}
-.body{
+body{
 	background-color:yellow;
 }
