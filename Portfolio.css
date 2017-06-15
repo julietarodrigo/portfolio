@@ -1,6 +1,7 @@
 h1{
 	font-family:Helvetica;
 	color: green;
+	font-size:35px;
 }
 h2{
 	font-family:Helvetica;
@@ -9,5 +10,8 @@ h3{
 	font-family:Helvetica;
 }
 body{
-	background-color:yellow;
+	background-color:skyblue;
+}
+img{
+	padding-left: 30px
 }

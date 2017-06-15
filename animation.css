@@ -1,0 +1,12 @@
+.before{
+	position:absolute;
+	top:25px;
+	left:25px;
+	z-index: 2;
+}
+.after{
+	position:absolute;
+	top:25px;
+	left:25px;
+	z-index: 1;
+}
