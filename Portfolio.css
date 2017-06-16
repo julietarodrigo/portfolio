@@ -1,17 +1,28 @@
-h1{
-	font-family:Helvetica;
-	color: green;
-	font-size:35px;
-}
-h2{
-	font-family:Helvetica;
-}
-h3{
-	font-family:Helvetica;
-}
 body{
 	background-color:skyblue;
 }
-img{
-	padding-left: 30px
+.about{
+	background-color: lightgrey;
+    width: 100%;
+    border: 25px solid green;
+    padding: 25px;
+}
+.newspaper{
+	background-color: yellow;
+    width: 100%;
+    border: 25px blue;
+    padding: 25px;
+}
+.resume{
+	background-color:orange;
+    width: 100%;
+    border: 25px black;
+    padding: 25px;
+}
+.contact{
+	background-color: red;
+    width: 100%;
+    border: 25px white;
+    padding: 25px;
+    margin: 25px;
 }
