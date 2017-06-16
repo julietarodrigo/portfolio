@@ -1,28 +1,27 @@
 body{
-	background-color:skyblue;
+	background-color:#c599b6;
 }
 .about{
-	background-color: lightgrey;
+	background-color: #b2799f;
     width: 100%;
     border: 25px solid green;
     padding: 25px;
 }
 .newspaper{
-	background-color: yellow;
+	background-color: #9e5b87;
     width: 100%;
-    border: 25px blue;
+	border: 25px solid green;
     padding: 25px;
 }
 .resume{
-	background-color:orange;
+	background-color:#9e5b87;
     width: 100%;
-    border: 25px black;
+    border: 25px solid green;
     padding: 25px;
 }
 .contact{
-	background-color: red;
+	background-color: #9e5b87;
     width: 100%;
-    border: 25px white;
+    border: 25px solid green;
     padding: 25px;
-    margin: 25px;
 }
