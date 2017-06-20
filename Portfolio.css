@@ -1,13 +1,13 @@
 
 body{
-	background-color:#555;
+	background-color:white;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: green;
 }
 
 li {
@@ -16,60 +16,79 @@ li {
 
 li a {
     display: block;
-    color: yellow;
+    color: black;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: beige;
 }
 h1{
 	font-size:60px;
 	text-align:center;
 }
-.headshot{
-	background-color: #92a8d1;
-    width: 100%;
-    border: 25px solid green;
-    padding: 25px;
-}
+
 .about{
-	background-color: #333;
+	background-color: beige;
     width: 100%;
-    border: 10px solid #111;
     padding: 25px;
 }
 
-.newspaper{
-	background-color: #faf8d8;
+.image{
+	background-color: beige;
     width: 100%;
-	border: 10px solid #111;
     padding: 25px;
+    margin-right: 10px
 }
 .resume{
-	background-color: #333;
+	background-color: blue;
     width: 100%;
-    border: 10px solid yellow;
     padding: 25px;
     font-size:60px;
+    float:left;
 }
 .contact{
-	background-color: #faf8d8;
+	background-color: beige;
     width: 100%;
-    border: 10px solid #111;
     padding: 25px;
 }
 
 img{
     border: 5px solid white;
+    padding:5px;
     float: left;
     position:relative;
     width: 180px;
 }
 p{
 	font-size:48px;
-	color:white;
+	color:#111;
 	font-family: Helvetica;
+}
+html{ 
+    box-sizing:border-box;
+    & * {
+        box-sizing:inherit;
+    }
+}
+img {
+    max-width:100%; 
+    height:auto;
+}
+
+
+.image {
+   display:inline-block;
+    padding: 5px;
+    width: 100%;
+    }
+}
+h2{
+	font-size:60px;
+	text-align: center;
+}
+.imgcontainer{
+	columns:3;
 }
