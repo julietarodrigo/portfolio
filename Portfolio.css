@@ -3,7 +3,6 @@ body{
 	background-color:white;
 }
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -17,7 +16,7 @@ li {
 li a {
     display: block;
     color: black;
-    font-size:28px;
+    font-size:32px;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,7 +63,8 @@ h4{
     width: 100%;
     padding: 25px;
     font-size:60px;
-    float:left;
+    float:center;
+    color:white;
 }
 .contact{
 	background-color: beige;
@@ -101,11 +101,6 @@ img {
     padding: 15px;
     width: 100%;
     }
-}
-h2{
-	font-size:60px;
-	text-align: center;
-}
 
 input[type=text], select, textarea {
     width: 100%;
