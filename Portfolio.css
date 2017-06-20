@@ -1,5 +1,6 @@
+
 body{
-    background-color:white;
+	background-color:white;
 }
 ul {
     margin: 0;
@@ -15,9 +16,9 @@ li {
 li a {
     display: block;
     color: white;
-    font-size:14px;
+    font-size:32px;
     text-align: left;
-    padding: 6px 8px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -25,63 +26,63 @@ li a:hover {
     background-color: green;
 }
 h1{
-    font-size:36px;
-    text-align:center;
-    color:brown;
+	font-size:60px;
+	text-align:center;
+	color:brown;
 }
 h2{
-    font-size:36px;
-    text-align:center;
-    color:brown;
+	font-size:60px;
+	text-align:center;
+	color:brown;
 }
 h3{
-    font-size:36px;
-    text-align:center;
-    color:brown;
+	font-size:60px;
+	text-align:center;
+	color:brown;
 }
 h4{
-    font-size:36px;
-    text-align:center;
-    color:brown;
+	font-size:60px;
+	text-align:center;
+	color:brown;
 }
 h5{
-    font-size:36px;
-    text-align:center;
-    color:brown;
+	font-size:60px;
+	text-align:center;
+	color:brown;
 }
 
 .about{
-    background-color: beige;
+	background-color: beige;
     width: 100%;
     padding: 25px;
 }
 
 .image{
-    background-color: beige;
-    width: 50%;
+	background-color: beige;
+    width: 100%;
     padding: 25px;
     margin-right: 10px
 }
 .resume{
-    background-color: green;
+	background-color: green;
     width: 100%;
     padding: 25px;
     font-size:60px;
     float:center;
 }
 .gallery{
-    background-color:brown;
+	background-color:brown;
 }
 
 .academic{
-    background-color: green;
+	background-color: green;
     width: 100%;
     padding: 25px;
     font-size:60px;
     float:center;
 }
 .contact{
-    background-color: beige;
+	background-color: beige;
     width: 100%;
     padding: 25px;
 }
@@ -91,13 +92,13 @@ img{
     padding:5px;
     float: left;
     position:relative;
-    width: 60px;
+    width: 180px;
 }
 p{
-    font-size:16px;
-    color:#111;
-    font-family: Helvetica;
-    max-width:1000px;
+	font-size:48px;
+	color:#111;
+	font-family: Helvetica;
+	max-width:48px;
 }
 html{ 
     box-sizing:border-box;
@@ -141,6 +142,3 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-a{
-    color:white;
-}
