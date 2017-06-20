@@ -1,45 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="portfolio/portfolio.css">
 
-</html><link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
+
 <body>
 
-<h1>JULIETA RODRIGO</h1>
-<img src="newheadshot.jpg">
-
-<h2>About Me</h2> 
-<p> Bachelor's degrees in Political Science and International Relations. Experienced writer with four years in the broadcast media industry. Skilled in editing and production of news.</p>
-
-<h3>Newspaper Clips
-
 <ul>
-<img src="rapeculture250.jpg">
+  <li><a class="active" href="#about">About Me</a></li>
+  <li><a href="#Resume">Resume</a></li>
+  <li><a href="#Newspaper Clips">Work Samples</a></li>
+  <li><a href="#Contact">Contact Me</a></li>
+</ul>
 
+<h1> JULIETA RODRIGO </h1>
+
+<div class="about">
+
+<p> <img src="HeadshotSmaller.jpg"> Welcome to my online portfolio. I am a bilingual journalist with two bachelor's degrees in Political Science and International Relations from Florida International University. I have four years of experience in the broadcast media industry, and I am skilled in editing and production of news. Scroll down for a collection of recently published work samples. </p>
+</div>
+
+<h2>RESUME</h2>
+
+<div class="resume">
+<p><a href="workresume.pdf">Resume</a></p>
+
+</div>
+
+<h3> WORK SAMPLES </h3>
+
+<div class="gallery">
+
+	  <img src="rapeculture250.jpg">
 	  <li><a href="http://panthernow.com/2017/04/09/universities-must-create-zero-tolerance-policies-for-students-safety/"> Universities Must Create Zero-Tolerance Policies for Students' Safety</a></li>
-
 <img src="depression250.jpg">
 	  <li><a href="http://panthernow.com/2017/04/19/post-graduation-depression-a-reality-for-many/"> Post-Graduation Depression a Reality for Many</a></li>
 <img src="stress250.jpg">
 	  <li><a href="http://panthernow.com/2017/03/30/why-you-get-sick-after-bouts-of-stress/"> Why You Get Sick after Bouts of Stress</a></li>
 <img src="sports250.jpg">
 	  <li><a href="http://panthernow.com/2017/03/29/major-sports-franchises-support-transgender-rights/">Major Sports Franchises Support Trangender Rights</a></li>
-<img src="collegiate250.jpg">	  
+<img src="collegiate250.jpg">
 	  <li><a href="http://panthernow.com/2017/03/21/its-time-to-even-the-playing-field-in-collegiate-athletics/">It's Time to Even the Playing Field in Collegiate Athletics</a></li>
-<img src="driving250.jpg">
+<img src="driving250.jpg">	  
 	  <li><a href="http://panthernow.com/2017/01/20/drowsy-driving-a-hazard-to-campus-community/">Drowsy Driving a Hazard to Campus Community</a></li>
 <img src="spring250.jpg">
 	  <li><a href="http://panthernow.com/2017/03/07/staying-safe-during-spring-break-2017/">Safety Tips During Spring Break</a></li>
+
+
 	</ul>
-</h3>
-<h4>Resume</h4>
-<li><a class="resume" href="resumepdf.pdf">Resume</a></li>
+</div>
+ </div>
+</div>
+</div>
 
-<h5>Image Collection from study abroad or Telemundo, etc</h5>
+<li><a href="https://julietarodrigo.github.io/portfolio/animation.html">See me graduate! (Hover over Image)</a></li>
 
+<div class="contact">
+<h4>CONTACT ME</h4>
 
-<p>Contact Me
-<li>Email: jrodr783@fiu.edu</li>
-</p>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+     <option value="argentina">Argentina</option>
+     <option value="other">Other</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</div>
+
 </body>
+</html>
